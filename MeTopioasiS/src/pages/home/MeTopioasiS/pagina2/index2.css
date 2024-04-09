@@ -1,0 +1,162 @@
+*{
+    background-color: #ececd7;;
+   }
+nav {
+    z-index: 1;
+    display: flex;
+    flex-direction:row;
+    align-items:end;
+    justify-content:space-around;
+    border-bottom: 20px;
+    padding: 20px 0px;
+    background-color:#c2c281;
+    gap: 30px;
+    font-family:'Rakkas';
+    width: 100%;
+    max-width: 1920px;
+    height: 100px;
+    border-bottom: 2px solid #8f8f5d;
+    padding-right: 40px;
+
+}
+header{
+    position: relative;
+    height: auto;
+
+}
+nav b{
+    font-size: 35px;
+    color: rgb(92, 53, 2);
+    background-color: #c2c281;
+    font-family: 'Rakkas';
+}
+
+
+a {
+    background-color: #ac7f44;
+    border-radius: 20px;
+    padding: 10px;
+    color: rgb(253, 224, 162);
+    text-decoration: none;
+    font-family: 'Rakkas';
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font: 800 13px arial;
+}
+a:hover{
+    color:rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+}
+.logo{
+    border-radius:100% ;
+    width: 60px;
+    padding: 5px 5px 0px 5px;
+    background-color: #c2c281 
+}
+.painel{
+    padding-top: 150px;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    gap: 30px;
+    padding: 200px;
+    width: 100px;
+    height: 1000px;
+    border-top: 10px;
+}
+.painel h1{
+    width: 100px;
+    color: #c2c281 ;
+    font-family: 'Rakkas';
+}    
+.painel h2{
+    width: 400px;
+} 
+.painel ol{
+    gap: 10px;
+   
+    width: 400px;
+    height: 90px;
+    color: #ac7f44;
+}
+.tabela{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid  #c2c281; 
+    width: 600px; 
+    padding: 20px; 
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.conteiner {
+    gap: 0;
+    padding: 200px;
+    width: 200px;
+    height: 100px;
+}
+.pon{
+    width: 800px;
+    font-size: 30px;
+    height:300px;
+}
+
+.arvore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.arvore img{
+    border-radius:50px ;
+    width: 500px;
+    height: 400px;
+    
+}
+
+#search-form form {
+
+background: #c2c281 ;
+
+}
+
+.buscar {
+
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+
+}
+
+form select {
+
+    border-radius: 10px;
+
+}
+
+form option {
+
+    border-radius: 10px;
+
+} 
+
+.submit{
+    border-radius:10px ;
+    border: none;
+
+}
+
+h1{
+    color: #c2c281;
+}
+
+h2{
+    color:  #ac7f44;
+}

@@ -1,0 +1,131 @@
+*{
+    margin: 0vw;
+    padding:0%
+}
+ body{
+    display: flex;
+    height: 100%;
+    gap: 70px;
+ }
+ 
+nav {
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    flex-direction:row;
+    align-items:end;
+    justify-content:space-around;
+    border-bottom: 20px;
+    padding: 20px;
+    background-color:rgb(194, 194, 129);
+    gap: 30px;
+    font-family: 'Rakkas';
+    width: 100%;
+    max-width: 1920px;
+    height: 70px;
+    border-bottom: 2px solid rgb(143, 143, 93);
+}
+header{
+    top:0;
+    position: relative;
+    height: auto;
+}
+.logo{
+    border-radius:100% ;
+    width: 60px;
+    padding: 5px 5px 0px 5px;
+    background-color: rgb(194, 194, 129) ;
+    
+}
+nav b{
+
+    font-size: 35px;
+    color: rgb(214, 173, 118);
+    background-color: rgb(156, 156, 80);
+
+}
+
+nav > a {
+    background-color: rgb(172, 127, 68);
+    border-radius: 20px;
+    padding: 10px 40px 10px 40px;
+    color: rgb(253, 224, 162);
+    text-decoration: none;
+}
+ .conteiner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+    height: 100vh;
+ }
+ a:hover{
+    color:rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+}
+.card{
+    background-color: #ffeed8;
+    width: 350px;
+    height: 350px;
+    border-radius: 12px;
+    box-shadow: 6px 6px 6px 6px rgba(255, 209, 110, 0.562);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    button:hover{
+        color:rgb(255, 255, 255);
+        border: 2px solid rgb(0, 0, 0);
+    }
+    
+}
+
+.card h1{
+    font-size: 20px;
+
+}
+.card p{
+    font-size: 13px;
+    color: rgb(19, 18, 18);
+    width: 300px;
+
+}
+button > a{
+    text-decoration: none;
+    color: #7e5013 ;
+}
+.card button{
+    background-color:  #9b9b50;
+    border: none;
+    padding: 4px;
+    width: 110px;
+    color: #7e5013;
+    font-size: 17px;
+    border-radius: 15px;
+}
+.card img{
+    padding: 70pxpx;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    
+}
+ 
+.main-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    width: 700px;
+    padding: 100px 200px 50px 350px;
+    height: 80px;
+}
